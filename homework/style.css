@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #fca6c9;
+    font-family: Trebuchet MS;
+    text-align: center;
+}
+
+main {
+    position: relative;
+    padding: 20px;
+    color: black;
+    max-width: 500px;
+    margin: auto;
+    display: inline-block;
+}
+
+img {
+    width: 125px;
+}
+
+li.list{
+    text-align: left;
+    font-weight: bold;
+}
