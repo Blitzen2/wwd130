@@ -77,22 +77,6 @@ main section{
     text-align: center;
 }
 
-.book, .join{
-    color: white;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover{
-    color:white;
-}
-
-.msg{
-    color: white;
-}
-
-footer{
-    color: white;
-}
 
 footer p{
     font-size: 1.2em;
