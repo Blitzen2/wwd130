@@ -1,0 +1,38 @@
+#main{
+    max-width: 100%;
+}
+
+#img1 {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 10px solid black;
+    padding:1px;
+    margin:auto;
+}
+
+#img2 {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border: 10px solid black;
+    padding:1px;
+}
+
+#img3 {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 10px solid black;
+    padding:1px;
+    margin: auto;
+}
+
+body{
+    background-color: grey;
+}
+
+footer{
+    text-align: center;
+}
