@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+#main{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+#card{
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 1em auto;
+    max-width: 300px;
+}
+
+header{
+    background-color: white;
+}
+
+footer{
+    background-color: rgb(60, 122, 155);
+    color: white;
+}
