@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Vacations</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        h4{
+    color: #030303;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#child-price{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    box-sizing: border-box;
+    border: 15px solid black;
+    font-size: larger;
+
+    
+}
+#free{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#family-prices{
+    grid-column: 3/6;
+    grid-row: 2/3;
+    text-align: center;
+    box-sizing: border-box;
+    border: 15px solid black;
+    font-size: larger;
+}
+
+#family{
+    grid-column: 3/6;
+    grid-row: 1/2;
+    height: 100%;
+    width: 100%;
+}
+
+#adults{
+    grid-column: 6/8;
+    grid-row: 1/2;
+    text-align: center;
+    box-sizing: border-box;
+    border: 15px solid black;
+    font-size: larger;
+}
+
+#ad-rt{
+    grid-column: 6/8;
+    grid-row: 2/3;
+    height: 100%;
+    width: 100%;
+}
+    </style>
+
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html" target="_blank">
+                <img  class="logo" src="images-wwr/logo.jpg" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Page 2</a>
+                <a href="site-plan-rafting-.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <main id="main">
+            <div id="child-price">
+                <h2>Children Prices</h2>
+                <h4>Ages:</h4>
+                <p>0-8: FREE!!</p>
+                <p>9-11: $7.99</p>
+                <p>12-16: $13.99</p>
+            </div>
+            <div id="free">
+                <img src="images-wwr/free.jpg" alt="free">
+            </div>
+            <div id="family-prices">
+                <h2>Family Deals!</h2>
+                <p>Family of 4: $30.00</p>
+                <p>Family of 5: $45.00</p>
+                <p>Family of 6: $65.00</p>
+                <p>Family of 7+: $70.00</p>
+            </div>
+            <div id="family">
+                <img src="images-wwr/family.jpg" alt="">
+            </div>
+            <div id="adults"> 
+                <h2>Adult Prices</h2>
+                <h4>Ages:</h4>
+                <p>17-59: $16.99</p>
+                <p>Senior Citizens: $7.99</p>
+            </div>
+            <div id="ad-rt">
+                <img src="images-wwr/adult-rafting.jpg" alt="">
+            </div>
+        </main>
+        <footer>
+            <p>Dry Oar &copy; 2024 - Kevin Cordes</p>
+            <p><a href="site-plan-rafting.html" target="_blank">Site Plan</a></p>
+            <p><a href="contactus.html" target="_blank">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images-wwr/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images-wwr/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images-wwr/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+
