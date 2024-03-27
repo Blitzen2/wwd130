@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
         <nav>
             <a href="index.html">Home Page</a>
             <a href="page2.html">Monsters</a>
-            <a href="page3.html">Dimensions</a>
+            <a id="page3" href="page3.html">Dimensions</a>
         </nav>
     </header>
     <main>
@@ -27,19 +28,38 @@
             <h3>Survival</h3>
             <p>Survival is the other mod in Minecraft. Players must collect resources, build structures, battle mobs (monsters), eat, and explore the world in an effort to survive. Don't worry, though you can make cool weapons and armor from different ores to protect yourself. It's an adventure down there! Have fun exploring the magical world of Minecraft with all its exciting ores and mysterious creatures!</p>
         </div>
-        <div>
-            <h1>Minecraft Ores</h1>
-            <p>Coal: Used for making torches</p>
-            <p>Iron: Used for armor, shields, weapons, tools, and different useful blocks</p>
-            <p>Lapiz Lauzi: Used for enchanting weapons and armor</p>
-            <p>Gold: Used for armor, weapons, tools, and trading with certain mobs in the Nether</p>
-            <p>Redstone: Used for powering redstone machines and railroads</p>
-            <p>Diamond: Used for armor, weapons, and tools</p>
-            <p>Emerald: Used for trading with villagers for certain materials that depend on the type of villager</p>
-        </div>
-        <div>
-            <img src="ores.jpg" alt="">
-        </div>
+            <div id="ores-grid">  
+                <div id="ores">
+                    <h2>Minecraft Ores</h2>
+                    <p><span>Coal:</span> Used for making torches</p>
+                    <p><span>Iron:</span> Used for armor, shields, weapons, tools, and different useful blocks</p>
+                    <p><span>Lapiz Lauzi:</span> Used for enchanting weapons and armor</p>
+                    <p><span>Gold:</span> Used for armor, weapons, tools, and trading with certain mobs in the Nether</p>
+                    <p><span>Redstone:</span> Used for powering redstone machines and railroads</p>
+                    <p><span>Diamond:</span> Used for armor, weapons, and tools</p>
+                    <p><span>Emerald:</span> Used for trading with villagers for certain materials that depend on the type of villager</p>
+                </div>
+                <div id="ores-pic">
+                    <div id="coal" >
+                        <img src="coal.jpg" alt="">
+                    </div>
+                    <div id="iron">
+                        <img src="iron.jpg" alt="">
+                    </div>
+                    <div id="lapiz">
+                        <img src="lapiz.jpg" alt="">
+                    </div>
+                    <div id="gold" >
+                        <img src="gold.jpg" alt="">
+                    </div>
+                    <img id="redstone" src="redstone.jpg" alt="">
+
+                    <img id="diamond" src="diamond.jpg" alt="">
+
+                    <img id="emerald" src="emerald.jpg" alt="">
+
+                </div>
+            </div>
     </main>
     <footer>
         <p>Minecraft &copy; 2024 - Kevin Cordes</p>
@@ -48,9 +68,6 @@
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="x.jpg" alt="X icon">
             </a>
             <a href="https://instagram.com" target="_blank">
                 <img src="instagram.png" alt="instagram icon">
